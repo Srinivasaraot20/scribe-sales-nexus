@@ -181,7 +181,7 @@ export function Home() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar user={user} userRole={userRole} />
+      <Navbar />
 
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-br from-primary/5 via-background to-accent/5">

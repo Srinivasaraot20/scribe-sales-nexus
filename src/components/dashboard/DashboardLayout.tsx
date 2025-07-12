@@ -155,7 +155,7 @@ export function DashboardLayout({ children, user, userRole, stats }: DashboardLa
 
   return (
     <div className="min-h-screen bg-background">
-      <Navbar user={user} userRole={userRole} />
+      <Navbar />
       
       {/* Dashboard Header */}
       <div className={`bg-gradient-to-r ${config.bgGradient} border-b border-border`}>
